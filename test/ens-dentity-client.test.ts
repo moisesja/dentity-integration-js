@@ -1,6 +1,5 @@
 import { expect } from "chai";
 import { EnsDentityClient } from "../src/ens/ens-dentity-client";
-import { getTextRecord } from "@ensdomains/ensjs/public";
 import { http } from "viem";
 import { mainnet } from "viem/chains";
 import { createEnsPublicClient, EnsPublicClient } from "@ensdomains/ensjs";

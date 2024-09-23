@@ -3,6 +3,7 @@ import { getTextRecord } from "@ensdomains/ensjs/public";
 
 /**
  * An ENS Dentity Client abstracts any interactions with the Federated Token and all OIDC related operations.
+ * Leverages https://github.com/ensdomains/ensjs/blob/main/README.md
  */
 export class EnsDentityClient {
   private _client: EnsPublicClient;
